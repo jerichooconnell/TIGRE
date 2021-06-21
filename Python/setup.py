@@ -25,7 +25,6 @@ COMPUTE_CAPABILITY_ARGS = [  # '-gencode=arch=compute_20,code=sm_20', #deprecate
     "-gencode=arch=compute_61,code=sm_61",
     "-gencode=arch=compute_70,code=sm_70",
     "-gencode=arch=compute_75,code=sm_75",
-    "-gencode=arch=compute_86,code=sm_86",  # Only CUDA 11
     "--ptxas-options=-v",
     "-c",
     "--default-stream=per-thread",
